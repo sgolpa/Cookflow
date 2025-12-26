@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recept</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="page-header">
+    <div>
+      <h1>Recept</h1>
+      <p class="subtitle">Hitta något gott att laga</p>
+    </div>
+    <label class="search-bar">
+      <span class="sr-only">Sök recept</span>
+      <input
+        type="search"
+        id="search-input"
+        name="search"
+        placeholder="Sök på titel"
+        autocomplete="off"
+      >
+    </label>
+  </header>
+
+  <main>
+    <section class="recipes-section">
+      <div id="recipe-list" class="recipe-grid"></div>
+    </section>
+  </main>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
